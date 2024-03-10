@@ -7,6 +7,14 @@
     padding: 0;
     font-family: 'Roboto', sans-serif;
   }
+  
+/*CSS Color Pallete
+Lapis Lazuli: #0A59A7
+Royal Blue: #0D2662
+White: #FFFFFF
+Red: #E70000
+Cadet Gray: 93A8AC
+*/
 
 .nav-items {
     list-style: none;
@@ -16,11 +24,9 @@
 
 .banner {
     height: 340px;
-    display: block;
-    background-color: gray;
-    background: url(./siteimages/northern_lights_banner.webp) no-repeat;
+    background-color: #0A5957;
+/*    background: url(./siteimages/northern_lights_banner.webp) no-repeat; */
     background-size: cover;
-
 }
 
 .banner h1 {
@@ -32,14 +38,45 @@
     top: 15%;
 }
 
+.banner h3 {
+    text-align: center;
+    color: aliceblue;
+    opacity: 65%
+}
+
 .banner button {
     color: black;
     background-color:rgb(215, 240, 234);
     border: 0;
-    box-shadow: .5rem .5rem .5rem black, 0rem 0rem 0rem black, 0rem 0rem 0rem black;
+    box-shadow: .25rem .25rem .25rem black, 0rem 0rem 0rem black, 0rem 0rem 0rem black;
     padding: .5rem 1rem;
     font-size: 1.25rem;
-    text-emphasis: str
-    text-align: center;
+    text-transform: uppercase;
     transition-duration: 0.5s;
+    position: relative;
+    left: 45%;
+    top: 10%;
+}
+
+.webdev-section {
+    padding: 2rem;
+}
+
+.webdev-section h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.package-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    gap: 3rem;
+    justify-content: center;
+    text-align: center;
+   
+}
+
+.package-cards div {
+    border: 1px solid black;
+    gap: 1rem;
 }
