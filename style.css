@@ -15,21 +15,31 @@
 }
 
 .banner {
-    height: 400px;
+    height: 340px;
     display: block;
     background-color: gray;
+    background: url(./siteimages/northern_lights_banner.webp) no-repeat;
+    background-size: cover;
+
 }
 
-.banner p {
+.banner h1 {
     text-align: center;
     font-size: 5rem;
+    color: aliceblue;
+    opacity: 65%;
     position: relative;
     top: 15%;
 }
 
 .banner button {
-    border: solid 1px blue;
-    position: relative;
-    top: 25%;
-    
+    color: black;
+    background-color:rgb(215, 240, 234);
+    border: 0;
+    box-shadow: .5rem .5rem .5rem black, 0rem 0rem 0rem black, 0rem 0rem 0rem black;
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    text-emphasis: str
+    text-align: center;
+    transition-duration: 0.5s;
 }
