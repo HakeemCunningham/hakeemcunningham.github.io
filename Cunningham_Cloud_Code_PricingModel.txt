@@ -1,0 +1,24 @@
+Basic Package:
+-Pre and Post Launch:
+$450 flat rate fee
+1 website up to 8 pages
+Upfront deposit (50% of flat rate fee)
+Development time: 1-3 months*
+Customer responsibility to find hosting service
+
+Premium Package:
+-Pre Launch:
+$350 flat rate fee
+1 website unlimited pages
+Upfront deposit (50% of flat rate fee)
+Development time: 1-3 months*
+
+-Post Launch:
+$100/month
+Web hosting will be provided via AWS and managed by me
+Website will be continuously updated
+
+
+
+
+
