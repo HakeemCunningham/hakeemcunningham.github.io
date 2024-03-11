@@ -107,7 +107,9 @@ a {
 }
 
 .basic-package {
-    border-radius: 1rem solid  hsla(210, 89%, 35%, 1);
+    border-radius: 1rem solid hsla(210, 89%, 35%, 1);
+    background-image: linear-gradient(to right, hsla(210, 89%, 35%, 1), hsla(202, 100%, 50%, 1) ) ;
+
 }
 
 .premium-package {
