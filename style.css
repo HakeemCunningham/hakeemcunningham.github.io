@@ -100,11 +100,18 @@ a {
 
 .package-cards {
     display: grid;
-    grid-template-columns: repeat(3, 300px);
+    grid-template-columns: repeat(2, 500px);
     gap: 3rem;
     justify-content: center;
     text-align: center;
-   
+}
+
+.basic-package {
+    border-radius: 1rem solid  hsla(210, 89%, 35%, 1);
+}
+
+.premium-package {
+    border: 1rem ;
 }
 
 .package-cards div {
