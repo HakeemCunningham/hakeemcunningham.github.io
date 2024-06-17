@@ -7,6 +7,10 @@
     padding: 0;
     font-family: 'Prompt', sans-serif;
   }
+
+section {
+    min-height: 360px;
+}
   
 /*CSS Color Pallete
 Lapis Lazuli: #0A59A7
@@ -19,6 +23,7 @@ Cadet Gray: #93A8AC
 nav {
     background-color: #0D2662;
     height: 5rem;
+    box-shadow: .25rem .25rem .75rem gray, 0rem 0rem 0rem gray, 0rem 0rem 0rem gray;
 }
 
 .my_logo {
@@ -95,8 +100,14 @@ a {
     top: 10%;
 }
 
+.web-dev {
+    position: relative;
+    bottom: 67px;
+    border-top: .1rem solid black;
+    border-bottom: .1rem solid black;
+}
+
 .webdev-section {
-    background-image: linear-gradient(90deg, #e3e3e3 0%, #c7c7c7 100%);
     position: relative;
     bottom: 93px;
 }
@@ -119,15 +130,27 @@ a {
 .basic-package {
     border-radius: 1rem;
     background-image: linear-gradient(to right, #0a59a9, #00a2ff );
-    box-shadow: .15rem .15rem .15rem black, 0rem 0rem 0rem black, 0rem 0rem 0rem black;
+    box-shadow: .15rem .15rem .15rem lightgray, 0rem 0rem 0rem lightgray, 0rem 0rem 0rem lightgray;
     color: white;
+}
+
+.basic-package:hover {
+    background-image: linear-gradient(to left, #0a59a9, #00a2ff);
+    transition-duration: 0.3s;
+    cursor: pointer;
 }
 
 .premium-package {
     border-radius: 1rem;
     background-image: linear-gradient(90deg, #944dff 30%, #c49ef5 100%);
-    box-shadow: .15rem .15rem .15rem black, 0rem 0rem 0rem black, 0rem 0rem 0rem black;
+    box-shadow: .15rem .15rem .15rem lightgray, 0rem 0rem 0rem , 0rem 0rem 0rem lightgray;
     color: white;
+}
+
+.premium-package:hover {
+    background-image: linear-gradient(to left, #944dff 30%, #c49ef5 100%);
+    transition-duration: 0.3s;
+    cursor: pointer;
 }
 
 .package-cards div {
